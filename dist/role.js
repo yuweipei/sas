@@ -30,6 +30,9 @@ module.exports = {
         var targetSource = Game.getObjectById(creep.memory.targetSourceId);
         // console.log(creep.name + targetContainer + targetSource);
         //Game.getObjectById('58fa340e502ef9d26f51310c').pos.findInRange(FIND_SOURCES, 1)
+        if (!targetContainer || !targetSource) {
+        	return;
+        }
         if(_.isEqual(creep.pos, targetContainer.pos)) {
             creep.harvest(targetSource)
         } else {
