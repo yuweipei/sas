@@ -1,4 +1,4 @@
-var role = require('role');
+var task = require('task');
 
 function repeatArray(arr, count) {
   var ln = arr.length;
@@ -17,24 +17,21 @@ function generateBody(composite) {
   return res;
 }
 
-module.exports.loop = function () {
-
-    var removeQueue = [];
-    if (Memory.spawnQueue === undefined || Memory.spawnQueue === null) {
-        Memory.spawnQueue = [];
-    }
-
-    // clean memory of dead creeps
+function cleanMemory() {
     for (var i in Memory.creeps) {
         if (Game.creeps[i]) {
             continue; // Ignore when creep is found alive
         }
-        removeQueue.push(i);
+        delete Memory.creeps[i];
     }
-    
-    for (var i = 0; i < removeQueue.length; i++) {
-        delete Memory.creeps[removeQueue[i]];
+}
+
+module.exports.loop = function () {
+    if (Memory.spawnQueue === undefined || Memory.spawnQueue === null) {
+        Memory.spawnQueue = [];
     }
+
+    cleanMemory();
 
     // spawn when needed
     if ( Memory.spawnQueue.length > 0 && Memory.spawnQueue[0] &&
@@ -86,6 +83,7 @@ module.exports.loop = function () {
     // const orderedCreep = _.sortBy(Game.creeps, 
     //             function(creep){ return _.indexOf(order, creep.structureType); }
     //             );
+    var taskList = [];
     for(var name in Game.creeps) {
         var creep = Game.creeps[name];
         if (creep.ticksToLive <= 100 && !creep.memory.isSpawnQueued) {
@@ -94,17 +92,23 @@ module.exports.loop = function () {
             Memory.spawnQueue.push(creep.memory);
             creep.memory.isSpawnQueued = true
         }
-
+ 
         // role.harvest(creep);
+        var currentTask = {action: 'nop'};
+        // console.log(creep.memory.role)
         switch (creep.memory.role) {
-            case 'harvester': role.harvest(creep); break;
-            case 'staticMiner': role.staticMine(creep); break;
-            case 'upgrader': role.upgrade(creep); break;
-            case 'builder': role.build(creep); break;
-            case 'hauler': role.haul(creep); break;
-            case 'fixer': role.fix(creep); break;
+            case 'harvester': currentTask = task.harvest(creep); break;
+            case 'staticMiner': currentTask = task.staticMine(creep); break;
+            case 'upgrader': currentTask = task.upgrade(creep); break;
+            case 'builder': currentTask = task.build(creep); break;
+            case 'hauler': currentTask = task.haul(creep); break;
+            case 'fixer': currentTask = task.fix(creep); break;
         }
+        taskList.push(currentTask);
     }
 
-    role.tower();
+    //role.tower();
+    for (var index in taskList) {
+        task.exec(taskList[index]);
+    }
 }
