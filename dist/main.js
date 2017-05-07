@@ -105,9 +105,12 @@ module.exports.loop = function () {
             creep.memory.isSpawnQueued = true
         }
 
-        // if (creep.memory.room != )
+        // if (creep.memory.room != creep.room.name) {
+        //     console.log('not in the correct room, creep: ' + creep.name);
+        //     creep.moveTo(creep.memory.room);
+        //     continue;
+        // }
 
-        // role.harvest(creep);
         var currentTask = {action: 'nop'};
         // console.log(creep.memory.role)
         switch (creep.memory.role) {

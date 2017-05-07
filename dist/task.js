@@ -289,7 +289,8 @@ module.exports = {
     },
 
     scout: function(creep) {
-        return {subject: creep, action: 'moveTo', target: Game.flags.colony2}
+        return {subject: creep, action: 'moveTo', target: Game.flags.colony2};
+        //return {subject: creep, action: 'nop'};
     },
 
     tower: function() {
