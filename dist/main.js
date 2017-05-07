@@ -2,15 +2,15 @@ var task = require('task');
 
 function repeatArray(arr, count) {
   var ln = arr.length;
-  var b = new Array();
-  for(i=0; i<count; i++) {
+  var b = [];
+  for(var i = 0; i<count; i++) {
     b.push(arr[i%ln]);
   }      
   return b;   
 }
 
 function generateBody(composite) {
-  var res = new Array();
+  var res = [];
   res.push(repeatArray([WORK], composite.work));
   res.push(repeatArray([CARRY], composite.carry));
   res.push(repeatArray([MOVE], composite.move));
@@ -33,12 +33,23 @@ module.exports.loop = function () {
 
     cleanMemory();
 
+    // sort spawnQueue
+    var order = ['harvester', 'hauler', 'staticMiner', 'upgrader', 'builder', 'fixer', 'scout'];
+    _.forEach(Game.creeps, function(creep) {
+        if (creep.hasOwnProperty('memory') && creep.memory.role == 'hauler') {
+            order = ['staticMiner', 'upgrader', 'builder', 'fixer', 'scout', 'hauler', 'harvester'];
+            return;
+        }
+    });
+    Memory.spawnQueue = _.sortBy(Memory.spawnQueue, function(creepInfo){ return _.indexOf(order, creepInfo.role); });
+    //_.forEach(Memory.spawnQueue, function(creepInfo){ console.log(creepInfo.role); });
+
     // spawn when needed
     if ( Memory.spawnQueue.length > 0 && Memory.spawnQueue[0] &&
         ( Memory.spawnQueue[0].role == 'scout' && Game.spawns['Spawn1'].room.energyAvailable >= 50 ||
           Memory.spawnQueue[0].role == 'staticMiner' && Game.spawns['Spawn1'].room.energyAvailable >= 800 ||
           Game.spawns['Spawn1'].room.energyAvailable >= 1300) ) {
-        var creepInfo = Memory.spawnQueue.shift();
+        const creepInfo = Memory.spawnQueue[0];
         var bodyComposite = {};
         switch (creepInfo.role) {
             // case 'scout': bodyComposite = {move: 1}; break;
@@ -57,12 +68,13 @@ module.exports.loop = function () {
             case 'hauler': body = [CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE]; break;
             default: break;
         }
-        // const body = generateBody(bodyComposite);
-        if (body.length > 0) {
-            // console.log(body);
-            // console.log(creepInfo.role + Game.time.toString());
-            // console.log(creepInfo)
-            console.log(Game.spawns['Spawn1'].createCreep(body, creepInfo.role + Game.time.toString(), creepInfo));
+        if (body.length > 0 && _.isEqual(Game.spawns['Spawn1'].canCreateCreep(body), OK)) {
+            console.log('Spawning ' + creepInfo.role);
+            // do some cleaning to the creepInfo
+            delete creepInfo.isSpawnQueued;
+            console.log('with memory' + JSON.stringify(creepInfo));
+            Game.spawns['Spawn1'].createCreep(body, creepInfo.role + Game.time.toString(), creepInfo);
+            Memory.spawnQueue.shift();
         }
     }
 
@@ -92,11 +104,14 @@ module.exports.loop = function () {
             Memory.spawnQueue.push(creep.memory);
             creep.memory.isSpawnQueued = true
         }
- 
+
+        // if (creep.memory.room != )
+
         // role.harvest(creep);
         var currentTask = {action: 'nop'};
         // console.log(creep.memory.role)
         switch (creep.memory.role) {
+            case 'scout': currentTask = task.scout(creep); break;
             case 'harvester': currentTask = task.harvest(creep); break;
             case 'staticMiner': currentTask = task.staticMine(creep); break;
             case 'upgrader': currentTask = task.upgrade(creep); break;
@@ -107,7 +122,7 @@ module.exports.loop = function () {
         taskList.push(currentTask);
     }
 
-    //role.tower();
+    task.tower();
     for (var index in taskList) {
         task.exec(taskList[index]);
     }

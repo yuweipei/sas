@@ -43,25 +43,26 @@ function fetchEnergyInOrderOf(creep, eneryTypeArr) {
     if (eneryTypeArr.includes('container')) {
         const chosenContainer = creep.pos.findClosestByPath(FIND_STRUCTURES, { 
             filter: (structure) => { 
-                if (creep.memory.role == 'hauler') {
-                    const res = structure.structureType == STRUCTURE_CONTAINER && structure.store.energy > 0;
+                if (creep.memory.role == 'hauler' && !spawnEnergyFull(creep)) {
+                    const res = structure.structureType == STRUCTURE_CONTAINER && structure.store.energy > 0.5 * creep.carryCapacity;
                     return res;
                 } else {
                     const res = (structure.structureType == STRUCTURE_CONTAINER && structure.store.energy >= creep.carryCapacity);
                     return res;
                 }}});
+
         if(chosenContainer && creep.withdraw(chosenContainer, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
             creep.moveTo(chosenContainer, {visualizePathStyle: {stroke: '#ffaa00'}});
             return;
         }
     }
 
-    if (eneryTypeArr.includes('storage') && !spawnEnergyFull(creep)) {
+    if (eneryTypeArr.includes('storage') && 
+        (creep.memory.role == 'hauler' && !spawnEnergyFull(creep) || creep.memory.role != 'hauler') ) {
         const storage = creep.pos.findClosestByPath(FIND_STRUCTURES, { 
             filter: (structure) => { 
                 return (structure.structureType == STRUCTURE_STORAGE && structure.store.energy >= creep.carryCapacity);
             }});
-        // console.log(creep.name + ' chosenContainer ' + chosenContainer);
         if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
             creep.moveTo(storage, {visualizePathStyle: {stroke: '#ffaa00'}});
         }
@@ -88,7 +89,7 @@ function findStaticMineSpot(creep) {
         const container = containers[i];
         const creepsOnContainer = container.room.find(FIND_MY_CREEPS, {
             filter: (creep) => { 
-                const res = creep.pos == container.pos && creep.memory.role == 'staticMiner'; 
+                const res = _.isEqual(creep.memory.targetContainerId, container.id) && creep.memory.role == 'staticMiner'; 
                 return res;
         }});
         if (creepsOnContainer.length == 0) {
@@ -113,7 +114,6 @@ module.exports = {
             }
             break;
         case 'transfer':
-            console.log(task.action, task.target)
             if(creep.transfer(task.target, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(task.target, {visualizePathStyle: {stroke: '#ffffff'}});
             }
@@ -124,19 +124,26 @@ module.exports = {
                 if(creep.build(target) == ERR_NOT_IN_RANGE) {
                     creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
                 }
+            } else {
+                creep.memory.role = 'upgrader';
             }
             break;
         case 'mine': 
             // console.log(Object.keys(task));
+            // console.log('mine')
             if(_.isEqual(creep.pos, task.target.pos)) {
-                const source = task.target.pos.findInRange(FIND_SOURCES, 1)
-                creep.harvest(source)
+                const sources = task.target.pos.findInRange(FIND_SOURCES, 1)
+                // console.log(sources);
+                creep.harvest(sources[0]);
             } else {
                 creep.moveTo(task.target, {visualizePathStyle: {stroke: '#ffaa00'}});
             }
             break;
         case 'fetch':
             fetchEnergyInOrderOf(creep, task.target);
+            break;
+        case 'moveTo':
+            creep.moveTo(task.target);
             break;
         case 'nop': 
         case 'default': break;
@@ -183,7 +190,7 @@ module.exports = {
 
 	/** @param {Creep} creep **/
 	build: function(creep) {
-	    if(creep.memory.building && creep.carry.energy == 0) {
+	    if(creep.carry.energy == 0) {
             creep.memory.building = false;
             creep.say('🔄 harvest');
 	    }
@@ -265,7 +272,7 @@ module.exports = {
 
 	    if(creep.memory.fixing) {
 	    	var structresNeedFix = Game.rooms[creep.room.name].find(FIND_STRUCTURES, { 
-                filter: (structure) => { return (structure.hits < structure.hitsMax && structure.isActive()
+                filter: (structure) => { return (structure.hits < 0.8 * structure.hitsMax && structure.isActive()
                 	&& (structure.structureType == STRUCTURE_CONTAINER || 
                 		structure.structureType == STRUCTURE_ROAD || 
                 		structure.structureType == STRUCTURE_WALL))}});
@@ -279,6 +286,10 @@ module.exports = {
         } else {
             return {subject: creep, action: 'fetch', target: ['droppedEnergy', 'container', 'storage']}
         }
+    },
+
+    scout: function(creep) {
+        return {subject: creep, action: 'moveTo', target: Game.flags.colony2}
     },
 
     tower: function() {
