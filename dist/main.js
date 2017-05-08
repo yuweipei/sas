@@ -19,10 +19,7 @@ function generateBody(composite) {
 
 function cleanMemory() {
     for (var i in Memory.creeps) {
-        if (Game.creeps[i]) {
-            continue; // Ignore when creep is found alive
-        }
-        delete Memory.creeps[i];
+        if (!Game.creeps[i]) delete Memory.creeps[i];
     }
 }
 

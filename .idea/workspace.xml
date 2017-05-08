@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa0e503-a91f-4562-adce-d792024051a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/main.js" afterPath="$PROJECT_DIR$/dist/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/task.js" afterPath="$PROJECT_DIR$/dist/task.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,9 +22,43 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="99" column="33" lean-forward="false" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="233">
+              <caret line="102" column="9" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+              <folding>
+                <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+                <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+                <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+                <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+                <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+                <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,9 +66,72 @@
       <file leaf-file-name="Game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScreepsAutocomplete/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="960">
               <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-              <folding />
+              <folding>
+                <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+                <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+                <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+                <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+                <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+                <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+                <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+                <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,8 +139,18 @@
       <file leaf-file-name="task.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="291" column="76" lean-forward="false" selection-start-line="291" selection-start-column="76" selection-end-line="291" selection-end-column="76" />
+            <state relative-caret-position="105">
+              <caret line="7" column="71" lean-forward="true" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreepsAutocomplete/Global/Constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="457" column="6" lean-forward="false" selection-start-line="457" selection-start-column="6" selection-end-line="457" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -54,6 +162,7 @@
     <findStrings>
       <find>_.foreach</find>
       <find>scout</find>
+      <find>FIND_CONSTRUCTION_SITES</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,10 +183,10 @@
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -87,9 +196,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+    <option name="x" value="52" />
     <option name="y" value="23" />
-    <option name="width" value="1230" />
+    <option name="width" value="1228" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -108,6 +217,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -120,31 +230,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screeps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screeps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.10.0" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,18 +273,19 @@
       <workItem from="1493908929513" duration="779000" />
       <workItem from="1494028869801" duration="87000" />
       <workItem from="1494101075414" duration="1394000" />
-      <workItem from="1494183891619" duration="2162000" />
+      <workItem from="1494183891619" duration="2714000" />
+      <workItem from="1494194467920" duration="6000" />
+      <workItem from="1494213596051" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4422000" />
+    <option name="totallyTimeSpent" value="6795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="23" width="1230" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="52" y="23" width="1228" height="777" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24471545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24429968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -225,9 +323,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dist/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1485">
+          <caret line="99" column="33" lean-forward="false" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <folding>
+            <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -235,7 +367,312 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+            <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4365">
+          <caret line="291" column="76" lean-forward="false" selection-start-line="291" selection-start-column="76" selection-end-line="291" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreepsAutocomplete/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+            <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4365">
+          <caret line="291" column="76" lean-forward="false" selection-start-line="291" selection-start-column="76" selection-end-line="291" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreepsAutocomplete/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+            <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -251,7 +688,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -259,7 +730,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+            <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -275,7 +809,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -283,7 +851,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+            <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -304,24 +935,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScreepsAutocomplete/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="960">
           <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1493908978000" expanded="true" signature="0:171" ph="/** The main global game object containing all the gameplay information. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="179:19937" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="185:429" ph="/** A hash containing all your construction sites with their id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="462:625" ph="/** An object containing information about your CPU usage ...*/" />
+            <marker date="1493908978000" expanded="true" signature="635:1417" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="645:763" ph="/** Your CPU limit depending on your Global Control Level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="791:961" ph="/** An amount of available CPU time at the current game tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="993:1108" ph="/** An amount of unused CPU accumulated in your bucket. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1137:1370" ph="/** Get amount of CPU time used from the beginning of the current game tick. Always returns 0 in the Simulation mode. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1400:1411" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="1425:1738" ph="/** A hash containing all your creeps with creep names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="1760:2024" ph="/** A hash containing all your flags with flag names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2045:2237" ph="/** Your Global Control Level ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2247:2642" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2257:2339" ph="/** The current level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2367:2470" ph="/** The current progress to the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2501:2611" ph="/** The progress required to reach the next level. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2649:2877" ph="/** A global object representing world map. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="2887:7436" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="2897:3562" ph="/** List all exits available from the room with the given name. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="3606:3617" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="3628:4230" ph="/** Find the exit direction from the given room en route to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="4283:4294" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="4305:5330" ph="/** Find route from the given room to another room. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="5384:5395" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="5406:6187" ph="/** Get the linear distance (in rooms) between two rooms. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="6263:6274" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="6285:6961" ph="/** Get terrain type at the specified room position. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7010:7021" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7032:7373" ph="/** Check if the room with the given name is available to move into ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7419:7430" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7443:7742" ph="/** A global object representing the in-game market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7755:17348" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="7765:7858" ph="/** Your current credits balance. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="7888:8658" ph="/** An array of the last 100 incoming transactions to your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="8702:9478" ph="/** An array of the last 100 outgoing transactions from your terminals with the following format: ...*/" />
+            <marker date="1493908978000" expanded="true" signature="9522:11128" ph="/** An object with your active and inactive buy/sell orders on the market. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11158:11838" ph="/** Estimate the energy transaction cost of StructureTerminal.send and Market.deal methods. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="11908:11919" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="11930:12479" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="12520:12531" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="12542:12962" ph="/** Change the price of an existing order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="13018:13029" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="13040:14319" ph="/** Create a market order in your terminal. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="14401:14412" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="14423:15563" ph="/** Execute a trade deal from your Terminal in yourRoomName to another player's Terminal using the specified buy/sell order. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="15619:15630" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="15641:16295" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16347:16358" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16369:16863" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="16904:16915" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="16926:17294" ph="/** This method is still under development. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17331:17342" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="17355:17670" ph="/** An object with your global resources that are bound to the account, like subscription tokens. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17695:17927" ph="/** A hash containing all the rooms available to you with room names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="17948:18177" ph="/** A hash containing all your spawns with spawn names as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18199:18432" ph="/** A hash containing all your structures with structure id as hash keys. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18458:18670" ph="/** System game tick counter. It is automatically incremented on every tick. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="18689:19099" ph="/** Get an object with the specified unique ID. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19133:19140" ph="{...}" />
+            <marker date="1493908978000" expanded="true" signature="19147:19881" ph="/** Send a custom message at your profile email. ...*/" />
+            <marker date="1493908978000" expanded="true" signature="19928:19935" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="99" column="33" lean-forward="false" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+        <state relative-caret-position="233">
+          <caret line="102" column="9" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+          <folding>
+            <marker date="1494263794000" expanded="true" signature="62:183" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="132:160" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="218:400" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="425:523" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="460:521" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="559:5711" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="632:671" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="856:1073" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="935:1067" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1649:3439" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1763:2973" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="1777:2225" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="2251:2273" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2305:2378" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2463:2597" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2626:2748" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2775:2935" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="2956:2963" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="3064:3433" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3480:3793" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="3799:4311" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="4368:5614" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4478:4736" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="4746:4955" ph="//..." />
+            <marker date="1494263794000" expanded="true" signature="5077:5572" ph="{...}" />
+            <marker date="1494263794000" expanded="true" signature="5104:5144" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5174:5216" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5248:5293" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5322:5364" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5392:5432" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5459:5498" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5524:5562" ph="..." />
+            <marker date="1494263794000" expanded="true" signature="5666:5709" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreepsAutocomplete/Global/Constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="457" column="6" lean-forward="false" selection-start-line="457" selection-start-column="6" selection-end-line="457" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="291" column="76" lean-forward="false" selection-start-line="291" selection-start-column="76" selection-end-line="291" selection-end-column="76" />
+        <state relative-caret-position="105">
+          <caret line="7" column="71" lean-forward="true" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
           <folding />
         </state>
       </provider>
